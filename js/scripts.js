@@ -30,8 +30,20 @@ function robogerList(number) {
     neighbors.push(numberAnalyze(i));
 
   }
+  
+  if (neighbors.length === 0) {
+    
+    return "Please input a number"
+  }
 
   return neighbors
 
 }
+
+
+
+
+// Interface Logic
+
+
 

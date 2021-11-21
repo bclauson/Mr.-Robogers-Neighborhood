@@ -36,5 +36,12 @@ Test: If we input a number it returns an array of the numbers counting up to the
 <br>
 Code: robogerList(4)
 <br>
-Epect: ["0","Beep!","Boop!","Won't you be my neighbor?", "4", "5"]
+Expect: ["0","Beep!","Boop!","Won't you be my neighbor?", "4", "5"]
+
+<br>
+Test: If we input a non-number it returns a request for a number
+<br>
+Code: robogerList("hello")
+<br>
+Expect: "Please input a number"
 
