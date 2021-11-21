@@ -1,7 +1,8 @@
 // Business Logic
 
-function numberAnalyze(number) {
+function numberAnalyze(input) {
 
+  const number = input.toString()
   let result
   if (number.includes("3")) {
 
@@ -18,6 +19,19 @@ function numberAnalyze(number) {
   }
 
   return result;
+
+}
+
+function robogerList(number) {
+  const neighbors = [];
+  numberParse = parseInt(number);
+
+  for (let i = 0; i <= numberParse; i++) {
+    neighbors.push(numberAnalyze(i));
+
+  }
+
+  return neighbors
 
 }
 
