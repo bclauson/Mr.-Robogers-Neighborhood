@@ -36,7 +36,7 @@ function robogerList(number) {
     return "Please input a number"
   }
 
-  return neighbors
+  return neighbors.join(", ")
 
 }
 
