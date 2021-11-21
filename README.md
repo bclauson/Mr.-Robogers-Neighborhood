@@ -1,3 +1,50 @@
+
+# Branden Clauson Mr. Robogers Neighborhood
+
+### ***By Branden Clauson***
+### A counting of robogers neighbors
+
+<p>&nbsp<p>
+
+## **Technologies used**
+
+* HTML
+* CSS
+* JavaScript
+* JQuery
+
+<p>&nbsp<p>
+
+## **Description**
+
+#### This webpage takes an input and returns a count from 0 up until the inputted number with numbers containing a 1 translating to "Beep!", 2 translating to "Boop!" and 3 translating to "Won't you be my neighbor?".
+
+
+
+<p>&nbsp<p>
+
+## **Setup/Installation Requirements**
+* Clone to folder
+* Navagate to directory
+* Open index.html in prefered browser (tested in chrome)
+
+<p>&nbsp<p>
+
+## **Known Bugs**
+
+#### No current known bugs
+
+## **License**
+
+[MIT](LICENSE.txt)
+
+Copyright (c) 2021 Branden Clauson
+
+<p>&nbsp<p>
+
+## **Tests**
+
+
 **Describe: numberAnalyze();**
 <br>
 Test: If we input 1, we want to output "Beep!"
