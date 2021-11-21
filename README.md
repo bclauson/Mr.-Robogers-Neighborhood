@@ -21,5 +21,11 @@ Code: numberAnalyze("3");
 <br>
 Expect: "Won't you be my neighbor?"
 
+<br> 
+Test: If we input a number not containing 1,2, or 3, we will output the number
+<br>
+Code: numberAnalyze("4")
+<br>
+Expect: "4"
 
 
