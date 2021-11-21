@@ -45,5 +45,16 @@ function robogerList(number) {
 
 // Interface Logic
 
+$(document).ready(function(){
+  $("form#neighbor-counter").submit(function(event){
+    event.preventDefault();
+    const word = $("#number").val();
+
+    const neighbors = robogerList(word);
+    $("#total-count").html(neighbors);
+
+  });
+});
+
 
 
